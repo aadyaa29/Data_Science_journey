@@ -1,0 +1,36 @@
+Variables - a sort of container that store the value or anything assigned to it. It has its own data type and is case sensitive.
+a variable can't start with an integer or a pyhton word like if, for, etc. 
+a variable can't have any symbol like -,#,@ etc.
+it can only start with either a letter or an underscore 
+Operators : +,-,*,/,//,%,**
+in an expression say 18+5 '+' is an operator and 18,5 are operands
++=concatenate
+-=subtracts
+*=multiplies
+/=division giving you the exact result as a real number. eg : 34/5 = 6.8
+//=gives you only the integer part of the quotient till both the operands are integers if atleast on of the operands is a real number then it gives the integer part in the form of a real number. eg : 27//5 = 5 but 27.0//5=5.0
+%(modulus)= it gives the remainder as the answer 
+**(exponential)=it raises to the power. eg: 3**2=9
+left associative operators =  +,-,*,/,//,%
+right associative operators = **
+division by 0 is a meaningless operation 
+7+4(3+2) will generate error as no operator is present between 4 and (
+precedence of operators: - 1)parenthesis 2)exponentiation 3)negation 4)/,//,%,* 5)+ and -
+string- sequence of characters. it can be quoted in single, double or triple quotes.
+a string can't be concatenated with an integer.
+operator * is used to repeat string a number of times. eg: hello*5 will print hello 5 times 
+Relational operators - ==,<,>,<=,>=,!
+they are used for comparing expressions and yield results in the form of true or false
+arithmetic operators have higher precedence then relational operators 
+when relational operators are applied to string then it is operated from left to right, character to character using ASCII codes where  codes of 'A-Z' are (65,90), for 'a-z' are (97,122) and for (0,,9) are (48,57)
+logical operators:- not, and, or 
+not is a unary operator i.e. it requires ony one operand. not True is false and not false is true.
+and gives true only when both operands are true  gives false otherwise.
+or gives false when both opernds are false gives true otherwise.
+logical operators have precedency as not,and then or
+also arithmetic operators, then relational and then logical operators are solved as per precedency.
+short ut evaluation of boolean expressions:- expression invloving and gets its second sub expression evaluated only when the first gives true as a result. similary an expression involving or gets its second sub expression evaluated ony ehrn the first one gives false as a result.
+truthy/falsy vaues :- for A and B , if A is a truthy then it returns B , if A is a falsy then it returns A 
+for A or B, if A is a truthy then it returns A , if A is a falsy then it returns B 
+common falsy vaues are 0,0.0,"",[],{},(),None
+short hand notation: a=a<operator>b can be written as a <operator> = B. for ex: a=a+b can be written as a+=b
